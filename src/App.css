@@ -27,6 +27,23 @@
 .App-link {
   color: #61dafb;
 }
+.Product-Cat-Color {
+  color: #0cac0a;
+}
+.product h6 {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.padding-container {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  padding-top: 60px !important;
+}
+.padding-containerNav {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +52,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
