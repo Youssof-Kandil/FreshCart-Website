@@ -43,7 +43,7 @@ export default function Login() {
       setisLoading(false);
       localStorage.setItem("userToken", data.token);
       setUserToken(data.token);
-      navigate("/");
+      navigate("/FreshCart-Website");
     }
   }
   return (

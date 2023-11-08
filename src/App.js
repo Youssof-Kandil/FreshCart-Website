@@ -32,6 +32,7 @@ let routes = createBrowserRouter([
     children: [
       {
         index: true,
+        path: "FreshCart-Website",
         element: (
           <ProtectedRoute>
             <Home />

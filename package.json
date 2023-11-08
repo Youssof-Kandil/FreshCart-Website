@@ -1,6 +1,7 @@
 {
   "name": "ecommercefinal",
   "version": "0.1.0",
+"homepage": " https://youssof-kandil.github.io/FreshCart-Website/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -10,6 +11,7 @@
     "axios": "^1.5.1",
     "bootstrap": "^5.3.2",
     "formik": "^2.4.5",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-detect-offline": "^2.4.5",
     "react-dom": "^18.2.0",
@@ -26,6 +28,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

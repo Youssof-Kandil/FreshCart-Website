@@ -36,7 +36,7 @@ export default function Navbar() {
               {userToken ? (
                 <>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/">
+                    <Link className="nav-link" to="/FreshCart-Website">
                       Home
                     </Link>
                   </li>
