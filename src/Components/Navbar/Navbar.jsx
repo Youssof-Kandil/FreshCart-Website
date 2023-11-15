@@ -17,7 +17,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid padding-containerNav">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/FreshCart-Website">
             <img src={Logo} alt="Logo of Fresh Market" />
           </Link>
           <button
